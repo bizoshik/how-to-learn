@@ -27,7 +27,7 @@
   width: 730px;
   line-height: 96px;
   font-size: 102px;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .header__subtitle {
@@ -98,11 +98,66 @@
 .two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .two-columns__paragraph:last-of-type {
   margin-bottom: 0;
+}
+
+.digits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.section-title {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin: 0;
+  margin-bottom: 20px;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.section-subtitle {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  width: 60%;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.table {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1100px;
+}
+
+.table__cell {
+  width: 250px;
+  margin-top: 60px;
+}
+
+.table__heading {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.table__text {
+  margin: 0;
+  margin-top: 20px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .logo {
